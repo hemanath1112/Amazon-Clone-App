@@ -1,0 +1,51 @@
+.FooterSecond{
+    background-color: #1b1e1f;
+    padding: 30px 0px;
+}
+.LineOne, .LineTwo{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 0px auto 30px;
+    font-size:13px ;
+}
+.LineOne h4,
+.LineTwo h4{
+    color: #fff;
+    font-weight: 500;
+}
+.LineOne ,
+.LineTwo  p{
+    color: rgb(108, 117, 124);
+}
+
+ .HoverItem{
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+ .HoverItem:hover{
+    text-decoration: underline;
+}
+.HoverItems{
+
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+ .HoverItems:hover{
+    color: rgb(108, 117, 124);
+    text-decoration: underline;
+}
+.EndItem{
+    text-align: center;
+    margin-top: 20px;
+    color: #ffff;
+    font-size: 14px;
+}
+.EndItem p span{
+    margin-right: 15px ;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.EndItem p span:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,44 @@
+:root{
+    --first: rgb(42, 42, 65);
+    --second: #fff ;
+}
+.Navbar{
+      display: flex;
+      align-items: center;
+      padding: 5px 30px;
+      background-color: var(--first);
+      color:var(--second) ;
+}
+.Navbar div{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    border: 2px solid var(--first);
+    transition: 0.2s ease;
+}
+.Navbar div svg{
+    font-size: 30px;
+    cursor: pointer;
+}
+.Navbar div span{
+    align-self: flex-end;
+    font-size: 16px;
+    padding: 5px 10px 5px 0px;
+    cursor: pointer;
+}
+.Navbar div:hover{
+    border: 2px solid var(--second);
+}
+.Navbar p{
+
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 2px solid var(--first);
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.Navbar p:hover{
+    border: 2px solid var(--second);
+}
+
+

@@ -1,0 +1,13 @@
+.BackToTop{
+    background-color: #34495e;
+    padding: 15px 0px ;
+    text-align: center;
+    color: #fff;
+    transition: 0.2s ease;
+}
+.BackToTop:hover{
+    background-color: #516379;
+}
+.BackToTop p{
+    font-size: 16px;
+}

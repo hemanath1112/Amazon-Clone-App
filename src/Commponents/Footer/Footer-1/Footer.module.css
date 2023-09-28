@@ -1,0 +1,73 @@
+
+.Fotter{
+    background-color: #2f3640;
+}
+.FotterFirst{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 200px;
+}
+.box{
+    color:#fff;
+}
+.box h4{
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 17px;
+}
+.box p{
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.box p:hover{
+    text-decoration: underline;
+}
+.Language{
+    border-top: 1px solid #fff ;
+    padding-top: 30px;
+}
+.LanguageSelection {
+    width: 400px;
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.LanguageSelection img{
+    width: 100px;
+    height: 40px;
+}
+.LanguageBox{
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px ;
+    color: #fff;
+    padding: 8px 15px;
+}
+.LanguageBox svg{
+    margin-right: 15px;
+}
+.cuntrys{
+    display: flex;
+    text-align: center;
+    width: 800px;
+    margin: 30px auto 0px;
+}
+.cuntrys p{
+    font-size: 14px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    color: #fff;
+}
+.cuntrys p span{
+    margin-right: 10px;
+    transition: 0.2s ease ;
+}
+.cuntrys p span:hover{
+    text-decoration: underline;
+}
+.nextline{
+    display: flex;
+}

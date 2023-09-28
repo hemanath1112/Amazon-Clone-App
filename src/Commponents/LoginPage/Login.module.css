@@ -1,0 +1,143 @@
+
+.Login{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin: 0px auto;
+ 
+}
+.LoginLogo img{
+    width: 200px;
+    display: flex;
+    margin: 0px auto;
+}
+.LoginDetails{
+    width: 50%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+}
+.LoginDetails h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.LoginForm{
+    display: flex;
+    flex-direction: column;
+}
+.LoginForm label{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.LoginForm input{
+    padding: 5px;
+    outline: none;
+    font-size: 16px;
+    border: 2px solid rgb(126, 121, 121);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.LoginForm input:focus{
+    border: 3px solid green;
+
+}
+.LoginForm button, .NewUserButton{
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 16px;
+    background-color: rgb(235, 231, 12);
+    font-weight: 500;
+    border: none;
+    transition: 0.2s ease;
+    margin-bottom: 20px;
+}
+.LoginForm button:hover, .NewUserButton:hover{
+    background-color: rgb(222, 226, 4); 
+}
+.LoginDetails .content {
+    font-size: 14px;
+}
+.LoginDetails .content span{
+    color: blue;
+    cursor: pointer;
+  transition: 0.2s ease;
+}
+.LoginDetails .content span:hover{
+    text-decoration: underline;
+    color: aliceblue;
+    color: brown;
+}
+.NeedMore{
+    margin-top:20px ;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: blue;
+    cursor: pointer;
+}
+.NeedMore p:hover{
+    text-decoration: underline;
+    color: brown;
+}
+.NeedMore span{
+    display: flex;
+    font-size: 14px;
+    color: rgb(44, 42, 42);
+    align-items: center;
+}
+.LoginNew{
+    text-align: center;
+    margin: 20px 0px;
+    color: rgb(87, 84, 84);
+    position: relative;
+}
+.LoginNew p{
+    display: inline-flex;
+    padding: 0px 5px;
+    background-color: #fff;
+}
+.LoginNew hr{
+    width: 50%;
+    margin: 0px auto;
+    color: rgb(243, 140, 4) !important;
+    position: absolute;
+    top: 11px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -2;
+}
+.NewUserButton{
+    width: 50%;
+    margin: 0px auto 20px;
+}
+.LoginPrivacy{
+    width: 50%;
+   font-size: 14px;
+   margin: 0px auto;
+   border-top: 1px solid rgb(156, 156, 156) ;
+}
+.LoginPrivacy .Conditions {
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 20px;
+    color: blue;
+    cursor: pointer;
+}
+.LoginPrivacy .Conditions span:hover{
+    text-decoration: underline;
+    color: brown;
+}
+.LoginPrivacy .CopyRights{
+    margin: 0px 20px;
+}
+.LoginPrivacy .CopyRights span{
+    color: red;
+    font-weight: 500;
+}
