@@ -107,7 +107,7 @@
     padding: 5px 10px;
     border: 2px solid var(--first-color);
     transition: 0.2s ease;
-    /* cursor: pointer; */
+    cursor: pointer;
 }
 .sign:hover{
     border: 2px solid var(--white-color);

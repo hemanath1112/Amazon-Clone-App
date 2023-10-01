@@ -5,13 +5,13 @@ import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 import { useState } from 'react';
 // import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 
-const Login = () => {
-    const [LoginItem, setLoginItem]=useState(false)
+const Login = ({LoginClose}) => {
+  
 
   return (
-    <div className={classes.LoginForm}>
+    <div className={classes.LoginForms}>
     <div className={classes.Login}>
-        <div className={classes.LoginLogo}>
+        <div className={classes.LoginLogo} onClick={LoginClose}>
             <img src={Logo} alt="Amazon logo" />
         </div>
         <div className={classes.LoginDetails}>

@@ -19,10 +19,8 @@ const AsideBar = ({closeBar}) => {
                     <h3>Hello, Sign in</h3>
                 </div>
             </div>
-            
         </div>
         <div className={classes.Sidebar} >
-        
             <Trending />
             <Digital />
             <Shoping />
