@@ -4,17 +4,21 @@ import SearchIcon from '@mui/icons-material/Search';
 import FmdGoodOutlinedIcon from '@mui/icons-material/FmdGoodOutlined';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import AmazonLogo from '../../assets/amazon-logo (2).png'
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 
-const Header = ({LoginOpen}) => {
+
+const Header = () => {
   return (
     <Fragment >
         <div className={classes.header}>
-           <div className={classes.image} >
-                    <img src={AmazonLogo}alt="" />
-                    <span>.in</span>
-            </div>
+            <Link to={'/'}>
+                <div className={classes.image} >
+                        <img src={AmazonLogo}alt="" />
+                        <span>.in</span>
+                </div>
+            </Link>
+           
             <div className={classes.Adddress}>
                 <FmdGoodOutlinedIcon />
                 <div>
@@ -35,11 +39,13 @@ const Header = ({LoginOpen}) => {
                    <span>EN</span>
               
             </div>
-            
-                <div className={classes.sign} onClick={LoginOpen}>
+            <Link to={'/login'}>
+                 <div className={classes.sign} >
                     <p>Hello, sign in</p>
                     <h4>Account & List</h4>
                 </div>
+            </Link>
+              
   
                  
        
@@ -49,13 +55,16 @@ const Header = ({LoginOpen}) => {
                 <p>Returns</p>
                 <h4>& Orders</h4>
             </div>
-            <div className={classes.cart}>
-                <ShoppingCartOutlinedIcon/>
-                    <div className={classes.cartCount}>
-                        <span>0</span>
-                        <h4>Cart</h4>
-                    </div> 
-            </div>
+            <Link to={'/card'}>
+                <div className={classes.cart}>
+                    <ShoppingCartOutlinedIcon/>
+                        <div className={classes.cartCount}>
+                            <span>0</span>
+                            <h4>Cart</h4>
+                        </div> 
+                </div>
+            </Link>
+            
         </div>
     </Fragment>
   )

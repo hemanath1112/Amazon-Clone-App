@@ -60,7 +60,7 @@ const FooterSecond = () => {
             </div>
         </div>
         <div className={classes.EndItem}>
-            <p>
+            <p className={classes.EndItemOne}>
                 <span>Conditions of Use & Sale</span>
                 <span>Privacy Notice</span>
                 <span>Interest-Based Ads</span>

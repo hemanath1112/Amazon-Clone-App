@@ -40,6 +40,8 @@
     margin-top: 20px;
     color: #ffff;
     font-size: 14px;
+ 
+
 }
 .EndItem p span{
     margin-right: 15px ;
@@ -48,4 +50,7 @@
 }
 .EndItem p span:hover{
     text-decoration: underline;
+}
+.EndItemOne{
+    margin-bottom: 10px;
 }

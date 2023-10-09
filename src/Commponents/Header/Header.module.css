@@ -35,6 +35,7 @@
 }
 .image span{
     position: absolute;
+    color: var(--white-color);
     top: 8px;
     right: 5px;
 }
@@ -108,6 +109,7 @@
     border: 2px solid var(--first-color);
     transition: 0.2s ease;
     cursor: pointer;
+    color: var(--white-color);
 }
 .sign:hover{
     border: 2px solid var(--white-color);
@@ -123,6 +125,8 @@
     border: 2px solid var(--first-color);
     transition: 0.2s ease;
     cursor: pointer;
+    color: var(--white-color);
+
 }
 .order:hover{
     border: 2px solid var(--white-color);
@@ -140,6 +144,8 @@
     border: 2px solid var(--first-color);
     transition: 0.2s ease;
     cursor: pointer;
+    color: var(--white-color);
+
 }
 .cart svg{
     width: 50px;

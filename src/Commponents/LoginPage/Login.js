@@ -2,18 +2,21 @@ import React from 'react'
 import classes from './Login.module.css'
 import Logo from '../../assets/Amazon_(company)-Logo.wine.svg'
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
-import { useState } from 'react';
+import { Link } from 'react-router-dom';
 // import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 
-const Login = ({LoginClose}) => {
+const Login = () => {
   
 
   return (
     <div className={classes.LoginForms}>
     <div className={classes.Login}>
-        <div className={classes.LoginLogo} onClick={LoginClose}>
+        <Link to={'/'}>
+        <div className={classes.LoginLogo} >
             <img src={Logo} alt="Amazon logo" />
         </div>
+        </Link>
+        
         <div className={classes.LoginDetails}>
             <h2>Sign in</h2>
                 <form action="" className={classes.LoginForm}>
